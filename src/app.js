@@ -1,6 +1,5 @@
 import express from 'express'
 import authRoute from './routes/auth.route.js'
-import createHttpError from 'http-errors'
 import errorMiddleware from './middlewares/error.middleware.js'
 import notFoundMiddleware from './middlewares/notFound.middleware.js'
 
